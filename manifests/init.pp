@@ -41,7 +41,7 @@ class nrpe (
       $default_nrpe_package_adminfile = undef
       $default_nrpe_package_source    = undef
       $default_nrpe_config            = '/etc/nagios/nrpe.cfg'
-      $default_libexecdir             = '/usr/lib64/nagios/plugins'
+      $default_libexecdir             = '/usr/lib/nagios/plugins'
       $default_pid_file               = '/var/run/nrpe/nrpe.pid'
       $default_nrpe_user              = 'nrpe'
       $default_nrpe_group             = 'nrpe'

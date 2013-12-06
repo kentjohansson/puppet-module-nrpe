@@ -434,7 +434,7 @@ describe 'nrpe' do
 
     it {
       should contain_file('nrpe_plugin_check_load') \
-        .with_content(/^command\[check_load\]=\/usr\/lib64\/nagios\/plugins\/check_load -w 10,8,8 -c 12,10,9$/)
+        .with_content(/^command\[check_load\]=\/usr\/lib\/nagios\/plugins\/check_load -w 10,8,8 -c 12,10,9$/)
     }
   end
 
